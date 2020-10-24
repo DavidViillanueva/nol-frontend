@@ -1,0 +1,27 @@
+.cardblock{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carta{
+    border-radius: 4px;
+    background: transparent;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(0, 140, 255, 0.473));
+    border: none;
+    padding: 10px;
+}
+
+.card-body{
+    padding: 0px;
+    font-size: 15px;
+    margin-bottom: 1px;
+}
+
+.list-group-item{
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.bg-transparent{
+    background: transparent;
+}
