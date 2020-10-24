@@ -1,5 +1,21 @@
-body{
+html{
     font-family: 'Sora', sans-serif;
+}
+body{
     height: 100%;
     width: 100%;
+    background: #282c34;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Sora', sans-serif;
+
+    color: #ddebf2;
+}
+p {
+    font-size: 18px;
+    font-family: 'Sora', sans-serif;
+
+    color: #ddebf2;
 }

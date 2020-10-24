@@ -8,12 +8,13 @@
     position: relative;
 
     padding: 10px 20px 10px 20px;
-    background: #0070e0
+    
+    background: #1e2127;
 }
 header{
 	color: white;
     max-height: 70px;
-    background: #0070e0;
+    background: #1e2127;
     display: flex;
     margin-bottom: 20px;
 }
@@ -28,6 +29,7 @@ header{
 }
 
 .navegador{
+    background: #1e2127;
     display: flex;
     align-items: center;
 }
@@ -43,7 +45,7 @@ header{
 
 
 .active{
-    background-color: #2582df;
+    background: #3b414d;
 }
 
 .navegador ul li a{
@@ -121,7 +123,6 @@ header{
         width: 100%;
     }
     .navegador{
-        background: #0070e0;
         width: 100%;
         transform: translateX(100%);
         position: relative;

@@ -1,0 +1,36 @@
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 30px 0px 5px 0px;
+
+    
+}
+
+.title{
+    margin-top: auto;
+}
+
+.text{
+    text-align: justify;
+    margin-top: auto;
+    text-justify: auto;
+    padding: 10px;
+}
+
+.left{
+    margin-right: auto;
+}
+
+.right{
+    margin-left: auto;
+}
+
+.gradientRight{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0, 140, 255, 0.473));
+}
+
+.gradientLeft{
+    background-image: linear-gradient(to left, rgba(255,0,0,0),  rgba(0, 140, 255, 0.473));
+}
