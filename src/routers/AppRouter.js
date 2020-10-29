@@ -4,25 +4,28 @@ import {
     Switch,
     Route,
     Redirect
-  } from "react-router-dom";
-import AboutView from '../components/AboutView/AboutView';
+} from "react-router-dom";
+
+import NavBar from '../components/UI/NavBar';
+// import AboutView from '../components/AboutView/AboutView';
 import ContactView from '../components/ContactView/ContactView';
 import HomeView from '../components/HomeView/HomeView';
-import NavBar from '../components/UI/NavBar';
+
 const AppRouter = () => {
     return (
         <Router>
             <div>
-                    <NavBar />
+                <NavBar />
                 <Switch>
 
-                    <Route path="/about" component={ AboutView }/>
+                    {/* <Route path="/about" component={ AboutView }/> */}
                     <Route path="/contact" component={ ContactView }/>
                     <Route path="/" component={HomeView} />
 
                     <Redirect to="/" />
 
                 </Switch>
+
             </div>
         </Router>
     )
